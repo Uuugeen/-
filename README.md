@@ -1,51 +1,52 @@
-У цьому проєкті реалізовано наступне:
+This project implements the following:
 
-Лендінг-пейдж для ветеранської організації
-Сайт містить інформацію про організацію «Ветеранський простір реінтеграції «Побратими Честі»», її цінності, новини, партнерів, проєкти та контакти.
+Landing page for a veteran organization
+The site contains information about the organization "Veteran Space for Reintegration "Brothers of Honor"", its values, news, partners, projects and contacts.
 
-Адаптивний дизайн
-Всі стилі (css/style.css та інші CSS-файли) забезпечують коректне відображення на різних пристроях (десктоп, планшет, мобільний).
+Responsive design
+All styles (css/style.css and other CSS files) ensure correct display on different devices (desktop, tablet, mobile).
 
-Багатосекційна структура
+Multi-section structure
 
-Про нас: опис місії та діяльності організації.
-Цінності: блок із ключовими принципами, кожен з іконкою (css/values.css).
-Новини: автоматичне підвантаження останніх постів із Facebook через Meta Graph API (js/API.js), з підтримкою слайдеру для фото/відео.
-Партнери: логотипи партнерських організацій (секція прихована за замовчуванням через CSS).
-Наші проєкти: опис та фото основних ініціатив.
-Контакти: телефон, адреса, email, Facebook.
-Автоматичне підвантаження новин із Facebook
+About us: description of the organization's mission and activities.
+Values: block with key principles, each with an icon (css/values.css).
+News: automatic loading of the latest posts from Facebook via Meta Graph API (js/API.js), with support for a photo/video slider.
+Partners: logos of partner organizations (section hidden by default via CSS).
+Our projects: description and photos of the main initiatives.
+Contacts: phone, address, email, Facebook.
+Automatic news loading from Facebook
 
-Використовується fetchFacebookPosts для отримання постів через Facebook Graph API.
-Відображення фото/відео у вигляді слайдера, автоматична прокрутка слайдів.
-Обробка помилок API.
-Навігація з плавним скролом
+Uses fetchFacebookPosts to retrieve posts via Facebook Graph API.
+Displaying photos/videos as a slider, automatic scrolling of slides.
+API error handling.
+Smooth scroll navigation
 
-Плавний перехід до секцій при кліку на пункти меню (js/script.js).
-Враховується висота хедера для коректного позиціонування.
-SEO та Open Graph
+Smooth transition to sections when clicking on menu items (js/script.js).
+Header height is taken into account for correct positioning.
+SEO and Open Graph
 
-Мета-теги для пошукових систем та соцмереж.
-Структуровані дані Schema.org для організації.
-Фірмові шрифти
+Meta tags for search engines and social networks.
+Schema.org structured data for the organization.
+Brand fonts
 
-Підключення кастомних шрифтів e-Ukraine (css/font.css).
-Документація
+Connection of e-Ukraine custom fonts (css/font.css).
+Documentation
 
-Посилання на статут, витяг неприбутковості та структуру власності у футері.
-Контакти розробника
+Link to the statute, non-profit statement and ownership structure in the footer.
+Developer contacts
 
-У футері вказані контакти розробника та посилання на GitHub.
-Іконки та графіка
+The footer contains the developer's contacts and a link to GitHub.
+Icons and graphics
 
-Для секцій використовуються SVG-іконки (наприклад, герб, іконки цінностей, контактів).
-Відсутність зайвих елементів на мобільних
+SVG icons are used for sections (e.g., coat of arms, icons of values, contacts).
+No unnecessary elements on mobile
 
-Деякі елементи меню та навігації приховуються на малих екранах для зручності користувача.
-Основні файли:
+Some menu and navigation elements are hidden on small screens for user convenience.
+Core files:
 
-index.html — структура сторінки.
-API.js — підвантаження новин із Facebook.
-script.js — плавна навігація.
-CSS-файли для кожного блоку: style.css, header.css, about.css, values.css, news.css, partners.css, projects.css, contacts.css, footer.css, font.css.
-Проєкт повністю статичний, не використовує серверної логіки, але інтегрується з Facebook API для динамічного контенту.
+index.html — page structure.
+
+API.js — loading news from Facebook.
+script.js — smooth navigation.
+CSS files for each block: style.css, header.css, about.css, values.css, news.css, partners.css, projects.css, contacts.css, footer.css, font.css.
+The project is completely static, does not use server logic, but integrates with the Facebook API for dynamic content.
