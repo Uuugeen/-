@@ -1,0 +1,89 @@
+.values {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    padding: 2.5rem;
+}
+
+.values__element {
+    margin-bottom: 1.875rem;
+}
+
+.values__element:last-child {
+    margin-bottom: 0;
+}
+
+.values__header::after {
+    content: url(/img/icons/ukraine-icon.svg);
+    position: absolute;
+    top: 50%;
+    left: 9.375rem;
+    transform: translate(-50%, -50%);
+}
+
+.values__header {
+    position: relative;
+}
+
+.values__minheader {
+    margin-bottom: 1.25rem;
+    margin-left: 2.5rem;
+    font-size: 1.125rem;
+    position: relative;
+}
+
+.values__minheader_1::before {
+    content: url(/img/icons/ПовагатаГідність.svg);
+    position: absolute;
+    left: -1.5625rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.values__minheader_2::before {
+    content: url(/img/icons/КомплекснийПідхідіІнновації.svg);
+    position: absolute;
+    left: -1.5625rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.values__minheader_3::before {
+    content: url(/img/icons/ЄдністьіПідтримка.svg);
+    position: absolute;
+    left: -1.5625rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.values__minheader_4::before {
+    content: url(/img/icons/Прозорістьіпідзвітність.svg);
+    position: absolute;
+    left: -1.5625rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.values__minheader_5::before {
+    content: url(/img/icons/ПартнерствоіСпівпраця.svg);
+    position: absolute;
+    left: -1.5625rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.values__minheader_6::before {
+    content: url(/img/icons/СоціальнаВідповідальністьіСталість.svg);
+    position: absolute;
+    left: -1.5625rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 43.75rem) {
+    .values {
+        padding: 1rem 0.5rem;
+        gap: 1rem;
+    }
+    .values__minheader {
+        margin-left: 2.5rem;
+        font-size: 1rem;
+    }
+    
+}
+
